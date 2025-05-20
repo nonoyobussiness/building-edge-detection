@@ -1,6 +1,6 @@
 # 🏢 Building Edge Detection
 
-This project uses a **deep learning U-Net model** to detect the **edges of buildings** from aerial or satellite images.
+This project uses a **deep learning models** to detect the **edges of buildings** from aerial or satellite images.
 
 ---
 
