@@ -6,11 +6,11 @@ from itertools import combinations
 from tensorflow.keras.models import load_model
 
 # Load pre-trained U-Net model
-model = load_model(r"C:\Users\magal.DESKTOP-HG9G00M\hello snitch\distanceofplot\segmentation_model.h5")
+model = load_model(r"distanceofplot/segmentation_model.h5")
 
 # Note: the satellite image is taken from a height of approx 822 meters in google earth 
 
-img_path = r"C:\Users\magal.DESKTOP-HG9G00M\hello snitch\distanceofplot\extra.png"
+img_path = r"distanceofplot/image1.png"
 gray = cv.imread(img_path, cv.IMREAD_GRAYSCALE)
 original = cv.imread(img_path)
 
